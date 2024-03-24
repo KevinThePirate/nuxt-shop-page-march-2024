@@ -12,6 +12,7 @@ if (!product.value) {
   const error = {
     statusCode: 404,
     message: "Product not found",
+    fatal: true,
   };
   throw createError(error);
 }
