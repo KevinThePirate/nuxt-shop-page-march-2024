@@ -1,10 +1,6 @@
 <template>
   <div>
-    <p>Product Details for {{ id }}</p>
-    <p>Product details content</p>
-    <p>{{ product.title }}</p>
-    <p>{{ product.price }}</p>
-    <p>{{ product.id }}</p>
+    <ProductDetails :product="product" />
   </div>
 </template>
 <script setup>
