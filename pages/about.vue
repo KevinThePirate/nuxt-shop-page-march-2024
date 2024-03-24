@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup>
-const { data } = await useFetch("/api/kevin");
+const { data } = await useFetch("/api/currency/GBP");
 console.log(data);
 </script>
 <style scoped>
