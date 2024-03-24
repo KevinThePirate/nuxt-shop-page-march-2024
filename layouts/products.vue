@@ -1,16 +1,17 @@
 <template>
   <div>
-    <header>
-      <h1>Products</h1>
-      <NuxtLink to="/products">Site's Products</NuxtLink>
+    <header class="shadow-sm bg-white">
+      <nav class="container mx-auto p-4">
+        <NuxtLink to="/products" class="font-bold">Site's Products</NuxtLink>
+      </nav>
     </header>
 
     <!-- Main content -->
-    <main>
+    <main class="container mx-auto p-4">
       <slot />
     </main>
-    <footer>
-      <ul>
+    <footer class="container mx-auto p-4 flex justify-between border-t-2">
+      <ul class="flex gap-4">
         <li>
           <NuxtLink to="/">Home</NuxtLink>
         </li>
